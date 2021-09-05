@@ -4,7 +4,7 @@
 - Angular-Cli via npm i -g angular/cli
 - npm install -g nx
 ### Create an nx workspace
--fem-production-angular % npx create-nx-workspace@10.3.2 fem-production-angular --appName=dashboard --preset=angular-nest --npmScope=fem --linter=tslint --style=scss --nx-cloud=false.
+-npx create-nx-workspace@10.3.2 fem-production-angular --appName=dashboard --preset=angular-nest --npmScope=fem --linter=tslint --style=scss --nx-cloud=false.
 ### Commands need if you want to test your knowledge.
 - concurrently for parallel programming two projects
 ### Add Material lib
