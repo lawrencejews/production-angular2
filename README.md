@@ -21,6 +21,11 @@
 - nx g c widgets -m app.module.ts --style=scss && nx g c widgets/widgets-list -m app.module.ts --style=scss && nx g c widgets/widget-details -m app.modules.ts --style=scss.
 ### Generate home components.
 - nx g c home -m app.module.ts --style==scss
+### Analyze-Performance
+- nx dep-graph --file=output.html
+### coverageReporters
+- Add coverage reporters to jest.config.js
+-  nx run dashboard:test --code-coverage --codeCoverage
 
 
 
